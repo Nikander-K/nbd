@@ -1,0 +1,38 @@
+Zad. 1:
+curl -v -XPUT -d '{"imie":"Diana","pozycja":"mid","data_wydania":2012,"koszt":4800}' -H "Content-Type:application/json" http://localhost:8098/buckets/s22358/keys/Diana
+
+curl -v -XPUT -d '{"imie":"Sylas","pozycja":"mid","data_wydania":2019,"koszt":6300}' -H "Content-Type:application/json" http://localhost:8098/buckets/s22358/keys/Sylas
+
+curl -v -XPUT -d '{"imie":"Orianna","pozycja":"mid","data_wydania":2011,"koszt":4800}' -H "Content-Type:application/json" http://localhost:8098/buckets/s22358/keys/Orianna
+
+curl -v -XPUT -d '{"imie":"Lee","pozycja":"jungle","data_wydania":2014,"koszt":4800}' -H "Content-Type:application/json" http://localhost:8098/buckets/s22358/keys/Lee
+
+curl -v -XPUT -d '{"imie":"Darius","pozycja":"top","data_wydania":2013,"koszt":6300}' -H "Content-Type:application/json" http://localhost:8098/buckets/s22358/keys/Darius
+
+Zad. 2:
+curl -i http://localhost:8098/buckets/s22358/keys/Darius
+
+Zad. 3:
+curl -v -XPUT -d '{"imie":"Lee","pozycja":"jungle","data_wydania":2014,"koszt":4800,"pochodzenie":"ionia"}' -H "Content-Type:application/json" http://localhost:8098/buckets/s22358/keys/Lee
+
+Zad. 4:
+curl -v -XPUT -d '{"imie":"Lee","pozycja":"jungle","data_wydania":2014,"pochodzenie":"ionia"}' -H "Content-Type:application/json" http://localhost:8098/buckets/s22358/keys/Lee
+
+Zad. 5:
+curl -v -XPUT -d '{"imie":"Lee","pozycja":"jungle","data_wydania":2017,"pochodzenie":"ionia"}' -H "Content-Type:application/json" http://localhost:8098/buckets/s22358/keys/Lee
+
+Zad. 6:
+curl -XDELETE  -i http://localhost:8098/buckets/s22358/keys/Darius
+
+Zad. 7:
+curl -i http://localhost:8098/buckets/s22358/keys/Darius
+
+
+Zad. 8: 
+curl -i -XPOST -H "Content-Type: application/json" -d '{"poz":"jungle"}' http://localhost:8098/buckets/s22358/keys
+
+Zad. 9:
+curl -i http://localhost:8098/buckets/s22358/keys/PvqDW1ck7BbUsxkqoYaicaRb9T1
+
+Zad. 10:
+curl -XDELETE -i http://localhost:8098/buckets/s22358/keys/PvqDW1ck7BbUsxkqoYaicaRb9T1

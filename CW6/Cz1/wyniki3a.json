@@ -1,0 +1,86 @@
+﻿[
+  {
+    "t": {
+"identity": 1,
+"labels": [
+        "town"
+      ],
+"properties": {
+"name": "Darjeeling"
+      }
+    },
+    "route": [
+      "Darjeeling",
+      "Darjeeling",
+      "Darjeeling",
+      "Darjeeling"
+    ],
+    "p": {
+"identity": 3,
+"labels": [
+        "peak"
+      ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+      }
+    },
+    "max(totalDist)": 37
+  },
+  {
+    "t": {
+"identity": 1,
+"labels": [
+        "town"
+      ],
+"properties": {
+"name": "Darjeeling"
+      }
+    },
+    "route": [
+      "Darjeeling",
+      "Darjeeling",
+      "Darjeeling"
+    ],
+    "p": {
+"identity": 3,
+"labels": [
+        "peak"
+      ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+      }
+    },
+    "max(totalDist)": 37
+  },
+  {
+    "t": {
+"identity": 1,
+"labels": [
+        "town"
+      ],
+"properties": {
+"name": "Darjeeling"
+      }
+    },
+    "route": [
+      "Darjeeling",
+      "Darjeeling",
+      "Darjeeling",
+      "Darjeeling",
+      "Darjeeling"
+    ],
+    "p": {
+"identity": 3,
+"labels": [
+        "peak"
+      ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+      }
+    },
+    "max(totalDist)": 55
+  }
+]

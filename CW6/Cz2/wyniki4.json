@@ -1,0 +1,402 @@
+﻿[
+  {
+    "a.name": "SAT",
+    "flightCount": 1
+  },
+  {
+    "a.name": "FLL",
+    "flightCount": 1
+  },
+  {
+    "a.name": "KOA",
+    "flightCount": 1
+  },
+  {
+    "a.name": "SMF",
+    "flightCount": 1
+  },
+  {
+    "a.name": "RIC",
+    "flightCount": 1
+  },
+  {
+    "a.name": "IND",
+    "flightCount": 1
+  },
+  {
+    "a.name": "MCI",
+    "flightCount": 1
+  },
+  {
+    "a.name": "MSN",
+    "flightCount": 1
+  },
+  {
+    "a.name": "BIL",
+    "flightCount": 1
+  },
+  {
+    "a.name": "ROC",
+    "flightCount": 1
+  },
+  {
+    "a.name": "CLT",
+    "flightCount": 1
+  },
+  {
+    "a.name": "DCA",
+    "flightCount": 1
+  },
+  {
+    "a.name": "PBI",
+    "flightCount": 1
+  },
+  {
+    "a.name": "MIA",
+    "flightCount": 1
+  },
+  {
+    "a.name": "MOB",
+    "flightCount": 1
+  },
+  {
+    "a.name": "SAT",
+    "flightCount": 1
+  },
+  {
+    "a.name": "FLL",
+    "flightCount": 1
+  },
+  {
+    "a.name": "KOA",
+    "flightCount": 1
+  },
+  {
+    "a.name": "SMF",
+    "flightCount": 1
+  },
+  {
+    "a.name": "RIC",
+    "flightCount": 1
+  },
+  {
+    "a.name": "IND",
+    "flightCount": 1
+  },
+  {
+    "a.name": "MCI",
+    "flightCount": 1
+  },
+  {
+    "a.name": "MSN",
+    "flightCount": 1
+  },
+  {
+    "a.name": "BIL",
+    "flightCount": 1
+  },
+  {
+    "a.name": "ROC",
+    "flightCount": 1
+  },
+  {
+    "a.name": "CLT",
+    "flightCount": 1
+  },
+  {
+    "a.name": "DCA",
+    "flightCount": 1
+  },
+  {
+    "a.name": "PBI",
+    "flightCount": 1
+  },
+  {
+    "a.name": "MIA",
+    "flightCount": 1
+  },
+  {
+    "a.name": "MOB",
+    "flightCount": 1
+  },
+  {
+    "a.name": "SNA",
+    "flightCount": 2
+  },
+  {
+    "a.name": "LAS",
+    "flightCount": 2
+  },
+  {
+    "a.name": "ATL",
+    "flightCount": 2
+  },
+  {
+    "a.name": "CMH",
+    "flightCount": 2
+  },
+  {
+    "a.name": "SJC",
+    "flightCount": 2
+  },
+  {
+    "a.name": "LGA",
+    "flightCount": 2
+  },
+  {
+    "a.name": "TUS",
+    "flightCount": 2
+  },
+  {
+    "a.name": "SNA",
+    "flightCount": 2
+  },
+  {
+    "a.name": "LAS",
+    "flightCount": 2
+  },
+  {
+    "a.name": "ATL",
+    "flightCount": 2
+  },
+  {
+    "a.name": "CMH",
+    "flightCount": 2
+  },
+  {
+    "a.name": "SJC",
+    "flightCount": 2
+  },
+  {
+    "a.name": "LGA",
+    "flightCount": 2
+  },
+  {
+    "a.name": "TUS",
+    "flightCount": 2
+  },
+  {
+    "a.name": "SEA",
+    "flightCount": 3
+  },
+  {
+    "a.name": "PHX",
+    "flightCount": 3
+  },
+  {
+    "a.name": "SBN",
+    "flightCount": 3
+  },
+  {
+    "a.name": "SEA",
+    "flightCount": 3
+  },
+  {
+    "a.name": "PHX",
+    "flightCount": 3
+  },
+  {
+    "a.name": "SBN",
+    "flightCount": 3
+  },
+  {
+    "a.name": "MCO",
+    "flightCount": 4
+  },
+  {
+    "a.name": "PDX",
+    "flightCount": 4
+  },
+  {
+    "a.name": "BOS",
+    "flightCount": 4
+  },
+  {
+    "a.name": "DFW",
+    "flightCount": 4
+  },
+  {
+    "a.name": "SAN",
+    "flightCount": 4
+  },
+  {
+    "a.name": "BHM",
+    "flightCount": 4
+  },
+  {
+    "a.name": "CVG",
+    "flightCount": 4
+  },
+  {
+    "a.name": "ABQ",
+    "flightCount": 4
+  },
+  {
+    "a.name": "FAT",
+    "flightCount": 4
+  },
+  {
+    "a.name": "DLH",
+    "flightCount": 4
+  },
+  {
+    "a.name": "MCO",
+    "flightCount": 4
+  },
+  {
+    "a.name": "PDX",
+    "flightCount": 4
+  },
+  {
+    "a.name": "BOS",
+    "flightCount": 4
+  },
+  {
+    "a.name": "DFW",
+    "flightCount": 4
+  },
+  {
+    "a.name": "SAN",
+    "flightCount": 4
+  },
+  {
+    "a.name": "BHM",
+    "flightCount": 4
+  },
+  {
+    "a.name": "CVG",
+    "flightCount": 4
+  },
+  {
+    "a.name": "ABQ",
+    "flightCount": 4
+  },
+  {
+    "a.name": "FAT",
+    "flightCount": 4
+  },
+  {
+    "a.name": "DLH",
+    "flightCount": 4
+  },
+  {
+    "a.name": "SLC",
+    "flightCount": 5
+  },
+  {
+    "a.name": "HNL",
+    "flightCount": 5
+  },
+  {
+    "a.name": "FSD",
+    "flightCount": 5
+  },
+  {
+    "a.name": "SLC",
+    "flightCount": 5
+  },
+  {
+    "a.name": "HNL",
+    "flightCount": 5
+  },
+  {
+    "a.name": "FSD",
+    "flightCount": 5
+  },
+  {
+    "a.name": "EWR",
+    "flightCount": 7
+  },
+  {
+    "a.name": "EWR",
+    "flightCount": 7
+  },
+  {
+    "a.name": "MOT",
+    "flightCount": 8
+  },
+  {
+    "a.name": "MOT",
+    "flightCount": 8
+  },
+  {
+    "a.name": "MSP",
+    "flightCount": 9
+  },
+  {
+    "a.name": "MSP",
+    "flightCount": 9
+  },
+  {
+    "a.name": "IAD",
+    "flightCount": 12
+  },
+  {
+    "a.name": "BNA",
+    "flightCount": 12
+  },
+  {
+    "a.name": "IAD",
+    "flightCount": 12
+  },
+  {
+    "a.name": "BNA",
+    "flightCount": 12
+  },
+  {
+    "a.name": "AZO",
+    "flightCount": 13
+  },
+  {
+    "a.name": "AZO",
+    "flightCount": 13
+  },
+  {
+    "a.name": "SFO",
+    "flightCount": 14
+  },
+  {
+    "a.name": "SFO",
+    "flightCount": 14
+  },
+  {
+    "a.name": "DEN",
+    "flightCount": 18
+  },
+  {
+    "a.name": "DEN",
+    "flightCount": 18
+  },
+  {
+    "a.name": "LAX",
+    "flightCount": 22
+  },
+  {
+    "a.name": "LAX",
+    "flightCount": 22
+  },
+  {
+    "a.name": "IAH",
+    "flightCount": 23
+  },
+  {
+    "a.name": "IAH",
+    "flightCount": 23
+  },
+  {
+    "a.name": "DTW",
+    "flightCount": 25
+  },
+  {
+    "a.name": "DTW",
+    "flightCount": 25
+  },
+  {
+    "a.name": "ORD",
+    "flightCount": 48
+  },
+  {
+    "a.name": "ORD",
+    "flightCount": 48
+  }
+]

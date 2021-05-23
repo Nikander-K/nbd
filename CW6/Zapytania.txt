@@ -1,0 +1,42 @@
+       Czêœæ 1 – Wycieczki górskie:
+
+1) MATCH path= ShortestPath((t:town {name: "Darjeeling"})-[*]->(p:peak {name: "Sandakphu"})) RETURN path
+
+2) MATCH path= ShortestPath((t:town {name: "Darjeeling"})-[*]->(p:peak {name: "Sandakphu"})) WHERE ALL (relation IN RELATIONSHIPS(path) WHERE relation.winter="true") RETURN path
+
+3a) MATCH path=(t:town{name:"Darjeeling"})-[*]->(p:peak{name:"Sandakphu"}) WITH t, [r IN RELATIONSHIPS(path) | t.name] AS route,p,REDUCE(curDist=0,path IN RELATIONSHIPS(path) | curDist + path.distance) AS totalDist RETURN t,route,p,max(totalDist) ORDER BY max(totalDist)
+
+3b) MATCH (p:peak{name:'Darjeeling'})-[r:twowheeler*{summer:'true'}]-(p) return p // brak wyników
+
+       Czêœæ 2 – Po³¹czenia lotnicze:
+       
+4) MATCH (f:Flight)-[m:ORIGIN]->(a:Airport) WITH a, COUNT(f) AS flightCount RETURN a.name, flightCount ORDER BY flightCount
+
+5) MATCH p = (origin:Airport {name: 'LAX'})-[:ORIGIN|DESTINATION*..5]-(destination:Airport)
+WHERE
+  ALL(i IN RANGE(0, LENGTH(p)-1) WHERE
+    TYPE(RELATIONSHIPS(p)[i]) = ['ORIGIN', 'DESTINATION'][i]
+
+  ) AND
+  REDUCE(s = 0, n IN [k IN RANGE(1, LENGTH(p), 2) | NODES(p)[k]] |
+    s + [(n)<-[:ASSIGN]-(ticket) | ticket.price][0]
+  ) < 3000
+RETURN p
+
+6) MATCH (a:Airport {name: 'LAX'}),(b:Airport {name:'DAY'}), path =((a)-[:FLIGHT*..2]->(b)) WITH reduce(price = 0, rel in relationships(path) | price + rel.price) as price,path RETURN path,price ORDER BY price // brak wyników
+
+7) MATCH (a:Airport {name: 'LAX'}),(b:Airport {name:'DAY'}), path =((a)-[:FLIGHT*..2]->(b)) WITH reduce(price = 0, rel in relationships(path) | price + rel.price) as price,path RETURN path,price ORDER BY price LIMIT 1 // brak wyników
+
+8) MATCH (a:Airport {name: 'LAX'}),(b:Airport {name:'DAY'}), r =((a)-[:FLIGHT*..2]->(b)) WITH reduce(price = 0, rel in relationships(r) | price + rel.price) as price,r WHERE ALL(rel IN relationships(r) WHERE rel.class = "business") RETURN r,price ORDER BY price
+// brak wyników
+
+9) MATCH (a:Airport)<-[:ORIGIN|:DESTINATION]-(f:Flight)WITH f.airline as airline,a as a RETURN airline, COUNT(DISTINCT a)
+
+10) MATCH (a:Airport)<-[:ORIGIN]-(f)-[:DESTINATION]->(b:Airport), (f)<-[:ASSIGN]-(t) 
+WITH min(t.price) as lowPrice, a, b MATCH (f)<-[:ASSIGN]-(t {price: lowPrice}) 
+CREATE (a)-[:CHEAP {price: t.price, class: t.class, airline: f.airline}]->(b)
+WITH a,b
+MATCH (a:Airport),(b:Airport),(c:Airport) WITH a, b, c MATCH path0 = (a)-[cheap0:CHEAP]->(b) 
+MATCH path1 = (b)-[cheap1:CHEAP]->(c) WHERE NOT a.name = c.name 
+WITH (cheap0.price + cheap1.price) as total, path0, path1, cheap0, cheap1 
+RETURN path0, path1, cheap0, cheap1, total ORDER BY total LIMIT 1

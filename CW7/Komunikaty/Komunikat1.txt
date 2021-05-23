@@ -1,0 +1,115 @@
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* connect to ::1 port 8098 failed: Connection refused
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 8098 (#0)
+> PUT /buckets/s22358/keys/Diana HTTP/1.1
+> User-Agent: curl/7.38.0
+> Host: localhost:8098
+> Accept: */*
+> Content-Type:application/json
+> Content-Length: 65
+> 
+* upload completely sent off: 65 out of 65 bytes
+< HTTP/1.1 204 No Content
+< Vary: Accept-Encoding
+* Server MochiWeb/1.1 WebMachine/1.10.9 (cafe not found) is not blacklisted
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Date: Sun, 23 May 2021 12:41:33 GMT
+< Content-Type: application/json
+< Content-Length: 0
+< 
+* Connection #0 to host localhost left intact
+
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* connect to ::1 port 8098 failed: Connection refused
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 8098 (#0)
+> PUT /buckets/s22358/keys/Sylas HTTP/1.1
+> User-Agent: curl/7.38.0
+> Host: localhost:8098
+> Accept: */*
+> Content-Type:application/json
+> Content-Length: 65
+> 
+* upload completely sent off: 65 out of 65 bytes
+< HTTP/1.1 204 No Content
+< Vary: Accept-Encoding
+* Server MochiWeb/1.1 WebMachine/1.10.9 (cafe not found) is not blacklisted
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Date: Sun, 23 May 2021 14:02:44 GMT
+< Content-Type: application/json
+< Content-Length: 0
+< 
+* Connection #0 to host localhost left intact
+
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* connect to ::1 port 8098 failed: Connection refused
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 8098 (#0)
+> PUT /buckets/s22358/keys/Orianna HTTP/1.1
+> User-Agent: curl/7.38.0
+> Host: localhost:8098
+> Accept: */*
+> Content-Type:application/json
+> Content-Length: 67
+> 
+* upload completely sent off: 67 out of 67 bytes
+< HTTP/1.1 204 No Content
+< Vary: Accept-Encoding
+* Server MochiWeb/1.1 WebMachine/1.10.9 (cafe not found) is not blacklisted
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Date: Sun, 23 May 2021 14:03:20 GMT
+< Content-Type: application/json
+< Content-Length: 0
+< 
+* Connection #0 to host localhost left intact
+
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* connect to ::1 port 8098 failed: Connection refused
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 8098 (#0)
+> PUT /buckets/s22358/keys/Lee HTTP/1.1
+> User-Agent: curl/7.38.0
+> Host: localhost:8098
+> Accept: */*
+> Content-Type:application/json
+> Content-Length: 66
+> 
+* upload completely sent off: 66 out of 66 bytes
+< HTTP/1.1 204 No Content
+< Vary: Accept-Encoding
+* Server MochiWeb/1.1 WebMachine/1.10.9 (cafe not found) is not blacklisted
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Date: Sun, 23 May 2021 14:03:50 GMT
+< Content-Type: application/json
+< Content-Length: 0
+< 
+* Connection #0 to host localhost left intact
+
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* connect to ::1 port 8098 failed: Connection refused
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 8098 (#0)
+> PUT /buckets/s22358/keys/Darius HTTP/1.1
+> User-Agent: curl/7.38.0
+> Host: localhost:8098
+> Accept: */*
+> Content-Type:application/json
+> Content-Length: 66
+> 
+* upload completely sent off: 66 out of 66 bytes
+< HTTP/1.1 204 No Content
+< Vary: Accept-Encoding
+* Server MochiWeb/1.1 WebMachine/1.10.9 (cafe not found) is not blacklisted
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Date: Sun, 23 May 2021 14:04:54 GMT
+< Content-Type: application/json
+< Content-Length: 0
+< 
+* Connection #0 to host localhost left intact
+
