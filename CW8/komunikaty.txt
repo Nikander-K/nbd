@@ -1,0 +1,4 @@
+Dane nowo dodanej postaci: {'imie': 'Akali', 'pozycja': 'mid', 'data_wydania': 2010, 'koszt': 3150}
+Zamiana ceny postaci
+Dane bohatera po zmianie:{'imie': 'Akali', 'pozycja': 'mid', 'data_wydania': 2010, 'koszt': 1890}
+Pobranie po usuniêciu: None
